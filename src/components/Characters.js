@@ -4,7 +4,7 @@ export default function Characters(props) {
     const resetCharacters = () => {
         setCharacters(null);
     }
-    
+
     return (
         <div className="characters">
             <h1>Personajes</h1>
@@ -31,7 +31,7 @@ export default function Characters(props) {
                                 }
                             </h6>
                             <p>
-                                <span className="text-grey">Eisodios:</span>
+                                <span className="text-grey">Episodios:</span>
                                 <span> {characters.episode.length}</span>
                             </p>
                             <p>
